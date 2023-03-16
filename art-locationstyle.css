@@ -1,0 +1,414 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0px;
+  font-family: 'Big Shoulders Display', cursive;
+  font-family: 'Outfit', sans-serif;
+}
+
+header {
+  display: flex;
+  width: 375px;
+  height: 550px;
+}
+
+.for-back {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+  height: 72px;
+  transition: background-color, color 0.15s;
+}
+
+.back-arrow {
+  width: 56px;
+  height: 72px;
+  border: none;
+  background-color: #D5966C;
+}
+
+.arrow {
+  width: 8px;
+  height: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+.back-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 208px;
+  height: 72px;
+  background-color: #151515;
+}
+
+.back-home-text {
+  font-size: 20px;
+  font-family: Big Shoulders Display;
+  font-weight: 800;
+  line-height: 23.94px;
+  letter-spacing: 3px;
+  width: 141px;
+  height: 24px;
+  color: white;
+  transition: color 0.15s;
+}
+
+.map {
+  align-self: center;
+  max-width: 100%;
+  height: 550px;
+  position: absolute;
+  margin-top: -72px;
+}
+
+.tab-map {
+  display: none;
+}
+
+.desk-map {
+  display: none;
+}
+
+.map-pointer {
+  display: inline;
+  height: 56px;
+  z-index: 1;
+  margin-top: 219px;
+  margin-left: -98px;
+}
+
+main {
+  width: 100%;
+  height: 493px;
+  margin-top: -36px;
+  z-index: 1;
+  background-color: #151515;
+}
+
+.headline {
+  font-size: 50px;
+  font-family: Big Shoulders Display;
+  font-weight: 900;
+  line-height: 45px;
+  width: 343px;
+  height: 45px;
+  margin-left: 16px;
+  color: white
+}
+
+.street {
+  font-size: 32px;
+  font-family: Big Shoulders Display;
+  font-weight: 900;
+  line-height: 32px;
+  width: 343px;
+  height: 32px;
+  margin-top: 48px;
+  margin-left: 16px;
+  color: #D5966C;
+}
+
+.newport {
+ font-size: 18px;
+ font-family: outfit;
+ font-weight: 300;
+ line-height: 28px;
+ margin-top: -16px;
+ margin-left: 16px;
+ color: white;
+}
+
+.index {
+  font-size: 18px;
+  font-family: outfit;
+  font-weight: 300;
+  line-height: 28px;
+  margin-top: -16px;
+  margin-left: 16px;
+  color: white;
+}
+
+.country {
+  font-size: 18px;
+  font-family: outfit;
+  font-weight: 300;
+  line-height: 28px;
+  margin-top: -23px;
+  margin-left: 16px;
+  color: white;
+}
+
+.h6 {
+  font-size: 18px;
+  font-family: outfit;
+  font-weight: 300;
+  line-height: 28px;
+  width: 343px;
+  height: 140px;
+  margin-top: -16px;
+  margin-left: 16px;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  height: 336px;
+  background-color: #D5966C;
+}
+
+.container1 {
+  width: 311px;
+  height: 240px;
+  margin-top: 48px;
+  margin-left: 32px;
+}
+
+.footerparagraph {
+  font-size: 16px;
+  font-family: outfit;
+  font-weight: 300;
+  line-height: 26px;
+  margin-top: 38px;
+  color: #151515;
+}
+
+.contact {
+  display: flex;
+  gap: 20px;
+  margin-top: 38px;
+}
+
+.facebook-icon {
+  cursor: pointer;
+}
+
+.instagram-icon {
+  cursor: pointer;
+}
+
+.twitter-icon {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  header {
+    display: flex; 
+    align-self: center;
+    width: 768px;
+    height: 600px;
+  }
+
+  .for-back {
+    margin-left: 39px;
+  }
+
+  .map {
+    display: none;
+  }
+
+  .tab-map {
+    display: block;
+    align-self: center;
+    width: 768px;
+    height: 600px;
+    position: absolute;
+    margin-top: -72px;
+  }
+  
+  .map-pointer {
+    margin-top: 251px;
+    margin-left: 60px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 436px;
+  }
+
+  .loc {
+    margin-top: 88px;
+    margin-left: 39px;
+  }
+
+  footer {
+    height: 216px;
+  }
+
+  .headline {
+    font-size: 55px;
+    line-height: 50px;
+    width: 223px;
+    height: 100px;
+    margin: 0;
+  }
+
+  .addres {
+    margin-top: 88px;
+    margin-left: 68px;
+  }
+
+  .street {
+    width: 350px;
+    margin-top: 0;
+  }
+
+  .h6 {
+    width: 398px;
+    height: 112px;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container1{
+    display: flex;
+    flex-direction: row;
+    width: 689px;
+    height: 104px;
+    margin-top: 56px;
+    margin-left: 36px;
+  }
+
+  .modern {
+    width: 110.5px;
+    height: 40px;
+  }
+
+  .footerparagraph {
+    width: 281px;
+    height: 104px;
+    margin-top: 0;
+    margin-left: 65px;
+  }
+
+  .contact {
+    width: 100px;
+    height: 20px;
+    margin-top: 0;
+    margin-left: 133px;
+  }
+}
+
+@media (min-width: 1440px) {
+  header {
+    width: 100%;
+    height: 600px;
+  }
+  
+  .for-back {
+    position: absolute;
+    margin-left: 156px;
+  }
+
+  .for-back:hover .back-arrow {
+    background-color: #151515;
+  }
+
+  .for-back:hover .back-home {
+    background-color: #D5966C;
+  }
+
+  .for-back:hover .back-home-text {
+    color: #151515;
+  }
+
+  .tab-map {
+    display: none;
+  }
+
+  .desk-map {
+    display: block;
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+  }
+
+  .map-pointer {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 48%;
+  }
+
+  main {
+    width: 100%;
+    height: 548px;
+  }
+
+  .loc {
+    margin-top: 104px;
+    margin-left: 165px;
+  }
+
+  .headline {
+    font-size: 70px;
+    line-height: 70px;
+    width: 350px;
+    height: 140px;
+  }
+
+  .addres {
+    width: 540px;
+    margin-top: 104px;
+    margin-left: 220px;
+  }
+
+  .h6 {
+    font-size: 22px;
+    line-height: 32px;
+    width: 540px;
+    height: 128px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    height: 244px;
+  }
+
+  .container1 {
+    width: 1110px;
+    height: 84px;
+  }
+
+  .modern {
+    width: 159px;
+    height: 58px;
+  }
+
+  .footerparagraph {
+    font-size: 18px;
+    line-height: 28px;
+    width: 430px;
+    height: 84px;
+    margin-left: 140px;
+  }
+
+  .contact {
+    margin-left: 280px;
+  }
+
+  .facebook-icon:hover path {
+    fill:white;
+  }
+
+  .instagram-icon:hover path {
+    fill: white;
+  }
+  .twitter-icon:hover path {
+    fill: white;
+  } 
+}
