@@ -219,16 +219,31 @@ footer {
   gap: 20px;
 }
 
-.facebook-icon {
+#facebook-icon {
   cursor: pointer;
+  color: white;
 }
 
-.instagram-icon {
-  cursor: pointer;
+#facebook-icon:hover {
+  color: #D5966C;
 }
 
-.twitter-icon {
+#instagram-icon {
   cursor: pointer;
+  color: white;
+}
+
+#instagram-icon:hover {
+  color: #D5966C;
+}
+
+#twitter-icon {
+  cursor: pointer;
+  color: white;
+}
+
+#twitter-icon:hover {
+  color: #D5966C;
 }
 
 .top {
@@ -396,21 +411,6 @@ footer {
   .contact {
     margin-left: 133px;
     margin-top: 0px;
-  }
-
-  .facebook-icon {
-    width: 20px;
-    height: 20px;
-  }
-
-  .instagram-icon {
-    width: 20px;
-    height: 20px;
-  }
-
-  .twitter-icon {
-    width: 20px;
-    height: 20px;
   }
 
   .top {
@@ -582,17 +582,4 @@ footer {
   .contact {
     margin-left: 280px;
   }
-
-  .facebook-icon:hover path {
-    fill: #D5966C;
-  }
-
-  .instagram-icon:hover path {
-    fill: #D5966C;
-  }
-
-  .twitter-icon:hover path {
-    fill: #D5966C;
-  }
 }
-

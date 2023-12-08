@@ -186,16 +186,29 @@ footer {
   margin-top: 38px;
 }
 
-.facebook-icon {
+
+#facebook-icon {
   cursor: pointer;
 }
 
-.instagram-icon {
+#facebook-icon:hover {
+  color: white;
+}
+
+#instagram-icon {
   cursor: pointer;
 }
 
-.twitter-icon {
+#instagram-icon:hover {
+  color: white;
+}
+
+#twitter-icon {
   cursor: pointer;
+}
+
+#twitter-icon:hover {
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -400,15 +413,4 @@ footer {
   .contact {
     margin-left: 280px;
   }
-
-  .facebook-icon:hover path {
-    fill:white;
-  }
-
-  .instagram-icon:hover path {
-    fill: white;
-  }
-  .twitter-icon:hover path {
-    fill: white;
-  } 
 }
